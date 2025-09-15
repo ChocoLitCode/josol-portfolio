@@ -7,10 +7,10 @@
     </head>
     <body> <!-- Contains all the visible content of the web page -->
 
-        <header> <!-- Represents the introductory content or a group of navigational links -->
+        <header id="top"> <!-- Represents the introductory content or a group of navigational links -->
             <h1>Portfolio Skeleton</h1> <!-- Main heading of the webpage -->
         </header>
-
+        <hr /> <!--Horizontal line break-->
         <nav> <!-- Defines the navigation section -->
             <ul> <!-- Unordered list containing navigation links -->
                 <li><a href="#project">Projects</a></li> <!-- Link to the Projects section -->
@@ -21,6 +21,7 @@
 
         <section> <!-- Section for About Me / Introduction -->
             <h2>Hi! I am Trichelle Josol.</h2> <!-- Subheading introducing yourself -->
+            <img src="assets/profile.jpg" alt="id photo" height="200"/>
             <p>3rd Year Computer Engineering student</p> <!-- Paragraph describing your year and course -->
             <p>from Cavite State University - Carmona Campus</p> <!-- Paragraph describing your school -->
         </section>
@@ -34,7 +35,12 @@
                     <th>Role</th> <!-- Table header for role column -->
                 </tr>
                 <tr> <!-- Table row for a project entry -->
-                    <td>College Odyssey:CpE Edition</td> <!-- Project name -->
+                    <td>
+                        <figure>
+                            <img src="assets/college-odyssey.png" alt="game icon" height="100"/>
+                            <figcaption>College Odyssey:CpE Edition</figcaption>
+                        </figure>
+                    </td> <!-- Project name -->
                     <td>Paired game development project using Java.</td> <!-- Project description -->
                     <td> <!-- Table cell containing a list of roles -->
                         <ul> <!-- Unordered list of roles -->
@@ -66,17 +72,21 @@
                 </li>
             </ul>
         </section>
-
+        <hr />
         <footer id="contact"> <!-- Footer section containing contact info -->
+            <a href="#top"><img src="assets/up-arrow.png" title="Back to Top" alt="top arrow icon" /></a>
             <p>Author: Trichelle Mae Josol</p> <!-- Placeholder for author's name -->
             <a href="mailto:trichellemae.josol@cvsu.edu.ph"> <!-- Email link -->
                 <img src="assets/gmail.png" title="Send E-mail" alt="email icon"/> <!-- Email icon image -->
             </a>
-            <p>
+            <p>Attributions:
+                <br/>
                 <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">
-                    Gmail icons created by Pixel perfect - Flaticon
+                    Gmail icon created by Pixel perfect - Flaticon
                 </a>
-            </p> <!-- Attribution for the email icon -->
+                |Uicons by
+                <a href="https://www.flaticon.com/uicons">Flaticon</a>
+            </p> <!-- Attribution for the icons -->
         </footer>
     </body>
 </html>
