@@ -18,7 +18,7 @@
 }
 
 /* Set consistent width and spacing for sections */
-section, header, footer {
+section, header, footer,nav {
   max-width: 900px;
   margin: auto;
   padding: 30px;
