@@ -1,0 +1,177 @@
+/* ============================================================
+   STYLE SHEET: Personal Portfolio Skeleton (Minimalist Edition)
+   AUTHOR: [Your Name]
+   DESCRIPTION:
+   A clean, minimalist, high-contrast design focusing on
+   readability, simplicity, and balance.
+   ============================================================ */
+
+/* ------------------------------
+   Global Font and Reset
+   ------------------------------ */
+.alan-sans-main {
+  font-family: "Alan Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  color: #111;                 /* Deep black text */
+  background-color: #ffffff;   /* Crisp white background */
+  line-height: 1.5;
+}
+
+/* Consistent container width */
+section, header, footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* ------------------------------
+   Header Styling
+   ------------------------------ */
+header {
+  text-align: center;
+  border-bottom: 2px solid #111;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: xx-large;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ------------------------------
+   Navigation Bar
+   ------------------------------ */
+nav {
+  border-bottom: 1px solid #111;
+  padding:10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: #625e5e;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #000;
+  font-weight: 700;
+}
+
+
+/* ------------------------------
+   Section Titles
+   ------------------------------ */
+section h2 {
+  border-left: 4px solid #111;
+  padding-left: 10px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+/* ------------------------------
+   Intro Section
+   ------------------------------ */
+#intro {
+  text-align: center;
+}
+
+#intro img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #111;
+}
+
+#intro p {
+  font-size: 18px;
+}
+
+/* ------------------------------
+   Project Table
+   ------------------------------ */
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  text-align: left;
+}
+
+th {
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 2px solid #111;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size:small;
+  color: #555;
+}
+
+/* ------------------------------
+   Skills Section
+   ------------------------------ */
+#skill ul {
+  list-style: none;
+  font-weight: 600;
+}
+
+
+#skill ul ul {
+  list-style: disc;
+  margin-left: 40px;
+  font-weight: normal;
+}
+
+/* ------------------------------
+   Footer Styling
+   ------------------------------ */
+footer {
+  text-align: center;
+  border-top: 2px solid #111;
+  font-size: medium;
+  color: #333;
+}
+
+footer a {
+  color: #111;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+  margin: 20px;
+  transition: 0.2s;
+}
+
+footer img:hover {
+  opacity: 0.7;
+}
+

@@ -5,13 +5,20 @@
     <head> <!-- Contains meta information about the document -->
         <title>LAB2:Personal Portfolio Skeleton</title> <!-- Sets the title of the webpage shown on the browser tab -->
         <link href="assets/style.css" type="text/css" rel="stylesheet"/>
+       
+        <!-- Import Alan Sans font from Google Fonts for a clean, modern look -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
+        </style>
     </head>
-    <body> <!-- Contains all the visible content of the web page -->
+    
+    <!-- Main body using Alan Sans font style for uniform typography --> 
+    <body class="alan-sans-main">
 
         <header id="top"> <!-- Represents the introductory content or a group of navigational links -->
             <h1>Portfolio Skeleton</h1> <!-- Main heading of the webpage -->
         </header>
-        <hr /> <!--Horizontal line break-->
+        
         <nav> <!-- Defines the navigation section -->
             <ul> <!-- Unordered list containing navigation links -->
                 <li><a href="#project">Projects</a></li> <!-- Link to the Projects section -->
@@ -20,8 +27,8 @@
             </ul>
         </nav>
 
-        <section> <!-- Section for About Me / Introduction -->
-            <h2>Hi! I am Trichelle Josol.</h2> <!-- Subheading introducing yourself -->
+        <section id="intro"> <!-- Section for About Me / Introduction -->
+            <h2>Hi! I am Trichelle Mae Josol.</h2> <!-- Subheading introducing yourself -->
             <img src="assets/profile.jpg" alt="id photo" height="200"/>
             <p>3rd Year Computer Engineering student</p> <!-- Paragraph describing your year and course -->
             <p>from Cavite State University - Carmona Campus</p> <!-- Paragraph describing your school -->
@@ -73,13 +80,14 @@
                 </li>
             </ul>
         </section>
-        <hr />
+
         <footer id="contact"> <!-- Footer section containing contact info -->
             <a href="#top"><img src="assets/up-arrow.png" title="Back to Top" alt="top arrow icon" /></a>
-            <p>Author: Trichelle Mae Josol</p> <!-- Placeholder for author's name -->
+            <p>Author: Trichelle Mae Josol <!-- Placeholder for author's name -->
             <a href="mailto:trichellemae.josol@cvsu.edu.ph"> <!-- Email link -->
                 <img src="assets/gmail.png" title="Send E-mail" alt="email icon"/> <!-- Email icon image -->
             </a>
+            </p>
             <p>Attributions:
                 <br/>
                 <a href="https://www.flaticon.com/free-icons/gmail" title="gmail icons">
