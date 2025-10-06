@@ -1,14 +1,10 @@
 /* ============================================================
-   STYLE SHEET: Personal Portfolio Skeleton (Minimalist Edition)
-   AUTHOR: [Your Name]
-   DESCRIPTION:
-   A clean, minimalist, high-contrast design focusing on
-   readability, simplicity, and balance.
+   STYLE SHEET: Personal Portfolio Skeleton
+   AUTHOR: Josol, Trichelle Mae
+   DESCRIPTION: Minimalist, high-contrast layout for clarity and balance
    ============================================================ */
 
-/* ------------------------------
-   Global Font and Reset
-   ------------------------------ */
+/* Set main font, background, and base styles */
 .alan-sans-main {
   font-family: "Alan Sans", sans-serif;
   font-optical-sizing: auto;
@@ -16,27 +12,26 @@
   font-style: normal;
   margin: 0;
   padding: 0;
-  color: #111;                 /* Deep black text */
-  background-color: #ffffff;   /* Crisp white background */
-  line-height: 1.5;
+  color: #111;                 /* Text color */
+  background-color: #ffffff;   /* Page background */
+  line-height: 1.5;            /* Text spacing */
 }
 
-/* Consistent container width */
+/* Set consistent width and spacing for sections */
 section, header, footer {
   max-width: 900px;
   margin: auto;
   padding: 30px;
 }
 
-/* ------------------------------
-   Header Styling
-   ------------------------------ */
+/* Center header with bottom border */
 header {
   text-align: center;
   border-bottom: 2px solid #111;
   margin-bottom: 20px;
 }
 
+/* Style main title */
 header h1 {
   font-size: xx-large;
   font-weight: 700;
@@ -44,14 +39,13 @@ header h1 {
   text-transform: uppercase;
 }
 
-/* ------------------------------
-   Navigation Bar
-   ------------------------------ */
+/* Add simple navigation border and padding */
 nav {
   border-bottom: 1px solid #111;
   padding:10px;
 }
 
+/* Align nav links horizontally with spacing */
 nav ul {
   list-style: none;
   display: flex;
@@ -59,21 +53,20 @@ nav ul {
   gap: 30px;
 }
 
+/* Style nav links */
 nav a {
   color: #625e5e;
   text-decoration: none;
   font-weight: 600;
 }
 
+/* Highlight links on hover */
 nav a:hover {
   color: #000;
   font-weight: 700;
 }
 
-
-/* ------------------------------
-   Section Titles
-   ------------------------------ */
+/* Add border line to section titles */
 section h2 {
   border-left: 4px solid #111;
   padding-left: 10px;
@@ -81,13 +74,12 @@ section h2 {
   text-transform: uppercase;
 }
 
-/* ------------------------------
-   Intro Section
-   ------------------------------ */
+/* Center intro section content */
 #intro {
   text-align: center;
 }
 
+/* Style profile image */
 #intro img {
   width: 120px;
   height: 120px;
@@ -95,57 +87,55 @@ section h2 {
   border: 2px solid #111;
 }
 
+/* Style intro paragraph */
 #intro p {
   font-size: 18px;
 }
 
-/* ------------------------------
-   Project Table
-   ------------------------------ */
-
+/* Make project table clean and organized */
 table {
   border-collapse: collapse;
 }
 
+/* Add padding and borders to cells */
 th, td {
   border-bottom: 1px solid #ccc;
   padding: 20px;
   text-align: left;
 }
 
+/* Bold table headers */
 th {
   text-transform: uppercase;
   font-weight: 600;
   border-bottom: 2px solid #111;
 }
 
+/* Center images in figure */
 figure {
   text-align: center;
 }
 
+/* Style captions under images */
 figcaption {
-  font-size:small;
+  font-size: small;
   color: #555;
 }
 
-/* ------------------------------
-   Skills Section
-   ------------------------------ */
+/* List skills neatly */
 #skill ul {
   list-style: none;
   font-weight: 600;
 }
 
-
+/* Indent sub-skills with bullet points */
 #skill ul ul {
   list-style: disc;
   margin-left: 40px;
   font-weight: normal;
 }
 
-/* ------------------------------
-   Footer Styling
-   ------------------------------ */
+/* Add top border and center footer */
 footer {
   text-align: center;
   border-top: 2px solid #111;
@@ -153,16 +143,19 @@ footer {
   color: #333;
 }
 
+/* Style footer links */
 footer a {
   color: #111;
   text-decoration: none;
   font-weight: 600;
 }
 
+/* Underline links on hover */
 footer a:hover {
   text-decoration: underline;
 }
 
+/* Set size and spacing for footer icons */
 footer img {
   width: 32px;
   height: 32px;
@@ -171,7 +164,7 @@ footer img {
   transition: 0.2s;
 }
 
+/* Fade icons slightly on hover */
 footer img:hover {
   opacity: 0.7;
 }
-
