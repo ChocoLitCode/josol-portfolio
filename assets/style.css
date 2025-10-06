@@ -160,8 +160,12 @@ footer img {
   width: 32px;
   height: 32px;
   vertical-align: middle;
-  margin: 20px;
-  transition: 0.2s;
+  margin-left: 20px;
+}
+
+#arrow{
+  display: flex;
+  justify-content:right;
 }
 
 /* Fade icons slightly on hover */
